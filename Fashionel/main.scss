@@ -284,6 +284,31 @@ main {
       }
     }
   }
+
+  .social-media-angela {
+    border: 2px solid $color-gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+
+    h2 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-family: $font-lato-bold;
+      
+    }
+
+    p {
+      margin-bottom: 0px;
+    }
+
+    img {
+      margin-right: 10px;
+    }
+  }
+
   .white-room{
     margin: 10px 200px 100px;
     display: grid;
@@ -316,4 +341,5 @@ main {
   font: $font-lusitana-bold;
   font-size: $font-size-title;
 }
+
 }
