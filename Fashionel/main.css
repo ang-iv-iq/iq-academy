@@ -120,6 +120,26 @@ main .category-images {
 main .category-images img {
   margin: 10px;
 }
+
+main .social-media-angela {
+  border: 2px solid #8d99ae;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+main .social-media-angela h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-family: "Lato-Bold";
+}
+main .social-media-angela p {
+  margin-bottom: 0px;
+}
+main .social-media-angela img {
+  margin-right: 10px;
+
 main .white-room {
   margin: 10px 200px 100px;
   display: grid;
@@ -154,4 +174,5 @@ main .headingWhiteRoom {
   font-weight: bold;
   font: "Lusitana-Bold";
   font-size: 22px;
+
 }/*# sourceMappingURL=main.css.map */
