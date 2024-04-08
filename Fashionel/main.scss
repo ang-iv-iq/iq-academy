@@ -44,7 +44,7 @@ a {
 //Mixins
 @mixin primary-button {
   padding: 5px 15px;
-  background-color: $color-red;
+  background-color: $color-white;
   color: $color-light-black;
   border: 1px solid $color-light-black;
   transition: color .5s ease-in-out;
@@ -76,6 +76,15 @@ a {
   height: $height;
   max-width: $width;
   display: flex;
+}
+@mixin paragraph-design {
+  font: $font-lusitana-bold;
+  font-size: $font-size-subtitle;
+  text-align: center;
+  padding: 10px 30px;
+  border-bottom: 1px solid black;
+  margin-left: 20px;
+  font-weight: bold;
 }
 
 //Responsive
@@ -275,4 +284,36 @@ main {
       }
     }
   }
+  .white-room{
+    margin: 10px 200px 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    text-align: center;
+  
+  .wedding-dresses{
+    p{
+      @include paragraph-design();
+    }
+    .paragraph{
+      text-align: center;
+      padding: 10px 80px;
+      font: $font-lusitana-bold;
+      font-size: $font-size-title;
+      font-weight: bold;
+    }
+    span{
+      display: inline-block;
+      padding-top: 10px;
+      color: $color-gray;
+    }
+  }
+ 
+}
+.headingWhiteRoom{
+  padding-left: 210px;
+  font-weight: bold;
+  font: $font-lusitana-bold;
+  font-size: $font-size-title;
+}
 }
