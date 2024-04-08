@@ -83,7 +83,7 @@ main .hero-shot .about-us {
 }
 main .hero-shot .about-us .about-us-btn {
   padding: 5px 15px;
-  background-color: #d90429;
+  background-color: #fff;
   color: #2b2d42;
   border: 1px solid #2b2d42;
   transition: color 0.5s ease-in-out;
@@ -120,6 +120,7 @@ main .category-images {
 main .category-images img {
   margin: 10px;
 }
+
 main .social-media-angela {
   border: 2px solid #8d99ae;
   border-radius: 5px;
@@ -138,4 +139,40 @@ main .social-media-angela p {
 }
 main .social-media-angela img {
   margin-right: 10px;
+
+main .white-room {
+  margin: 10px 200px 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  text-align: center;
+}
+main .white-room .wedding-dresses p {
+  font: "Lusitana-Bold";
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 30px;
+  border-bottom: 1px solid black;
+  margin-left: 20px;
+  font-weight: bold;
+}
+main .white-room .wedding-dresses .paragraph {
+  text-align: center;
+  padding: 10px 80px;
+  font: "Lusitana-Bold";
+  font-size: 22px;
+  font-weight: bold;
+}
+main .white-room .wedding-dresses span {
+  display: inline-block;
+  padding-top: 10px;
+  color: #8d99ae;
+}
+main .headingWhiteRoom {
+  padding-left: 210px;
+  font-weight: bold;
+  font: "Lusitana-Bold";
+  font-size: 22px;
+
 }/*# sourceMappingURL=main.css.map */
