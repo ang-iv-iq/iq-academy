@@ -77,6 +77,7 @@ a {
   max-width: $width;
   display: flex;
 }
+
 @mixin paragraph-design {
   font: $font-lusitana-bold;
   font-size: $font-size-subtitle;
@@ -285,61 +286,67 @@ main {
     }
   }
 
-  .social-media-angela {
-    border: 2px solid $color-gray;
-    border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-
-    h2 {
-      margin-top: 0;
-      margin-bottom: 10px;
-      font-family: $font-lato-bold;
-      
-    }
-
-    p {
-      margin-bottom: 0px;
-    }
-
-    img {
-      margin-right: 10px;
-    }
-  }
-
-  .white-room{
+  //Elena Edits
+  .white-room {
     margin: 10px 200px 100px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 10px;
     text-align: center;
-  
-  .wedding-dresses{
-    p{
-      @include paragraph-design();
+
+    .wedding-dresses {
+      p {
+        @include paragraph-design();
+      }
+
+      .paragraph {
+        text-align: center;
+        padding: 10px 80px;
+        font: $font-lusitana-bold;
+        font-size: $font-size-title;
+        font-weight: bold;
+      }
+
+      span {
+        display: inline-block;
+        padding-top: 10px;
+        color: $color-gray;
+      }
     }
-    .paragraph{
-      text-align: center;
-      padding: 10px 80px;
-      font: $font-lusitana-bold;
-      font-size: $font-size-title;
-      font-weight: bold;
-    }
-    span{
-      display: inline-block;
-      padding-top: 10px;
-      color: $color-gray;
-    }
+
   }
- 
-}
-.headingWhiteRoom{
-  padding-left: 210px;
-  font-weight: bold;
-  font: $font-lusitana-bold;
-  font-size: $font-size-title;
+
+  .headingWhiteRoom {
+    padding-left: 210px;
+    font-weight: bold;
+    font: $font-lusitana-bold;
+    font-size: $font-size-title;
+  }
+
+
 }
 
+//Angela Edits
+.social-media-angela {
+  border: 2px solid $color-gray;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: $font-lato-bold;
+
+  }
+
+  p {
+    margin-bottom: 0px;
+  }
+
+  img {
+    margin-right: 10px;
+  }
 }
